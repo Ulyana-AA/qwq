@@ -1,6 +1,6 @@
 fun main () {
     print("Введите год: ")
-    val year = readLine()!!.toInt()
+    val year = readln().toInt()
     print(getYearEra(year))
 }
 
