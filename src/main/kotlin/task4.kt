@@ -1,10 +1,10 @@
 fun main (){
     print("Введите день недели: ")
-    val dayNumber = readLine()!!.toInt()
+    val dayNumber = readln().toInt()
     print("Введите ранг: ")
-    val bugRank = readLine()!!.toInt()
+    val bugRank = readln().toInt()
     print("Введите денежную единицу: ")
-    val cashAmount = readLine()!!.toInt()
+    val cashAmount = readln().toInt()
     val sugarKg = moneyBug(dayNumber, bugRank, cashAmount)
     print("Бюджет = $sugarKg кг сахара")
 
